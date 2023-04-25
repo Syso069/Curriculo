@@ -1,16 +1,19 @@
 @import url(navbar.css);
 @import url(informacoes.css);
 @import url(sobre.css);
+@import url(skill.css);
+@import url(educacao.css);
 
 :root {
     --fonte-principal: "Montserrat";
     --azul: #185191;
     --branco: #FFFFFF;
+    --branco-gelo: #ddd9ce;
 }
 
 body {
     font-family: var(--fonte-principal);
     font-weight: 500;
     font-size: 20px;
-    background-color: #808080;
+    background: var(--branco-gelo);
 }

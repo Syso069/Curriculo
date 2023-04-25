@@ -1,0 +1,28 @@
+.skill{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container__skill {
+    width: 20%;
+}
+
+.titulo__skill {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--branco);
+    padding-bottom: 1em;
+    width: 15%;
+    margin-left: 3.3em;
+    color: var(--azul);
+}
+
+.skill__items {
+    display: flex;
+}
+
+.skill__image {
+    margin-left: 0.35em;
+    width: 15%;
+}
