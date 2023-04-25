@@ -1,0 +1,16 @@
+@import url(navbar.css);
+@import url(informacoes.css);
+@import url(sobre.css);
+
+:root {
+    --fonte-principal: "Montserrat";
+    --azul: #185191;
+    --branco: #FFFFFF;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #808080;
+}

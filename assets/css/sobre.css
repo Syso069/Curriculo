@@ -1,0 +1,10 @@
+.container__sobre {
+    width: 20%;
+}
+
+.titulo__sobre {
+    color: var(--azul);
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 1em;
+}

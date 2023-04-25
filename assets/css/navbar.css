@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    margin: 2.5em 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto__perfil {
+    width: 15%;
+    border-radius: 100%;
+}
+
+.container__navbar {
+    margin: 2.5em 5em;
+
+}
+
+.titulo__navbar {
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--azul);
+    padding-bottom: 1em;
+}
+

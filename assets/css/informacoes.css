@@ -1,0 +1,28 @@
+.informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__informacoes {
+    width: 20%;
+}
+
+.titulo__informacoes {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--branco);
+    padding-bottom: 1em;
+    width: 15%;
+    margin-left: 2em;
+}
+
+.contatos {
+    display: flex;
+    margin-right: 2.5em;
+}
+
+.whatsapp__image, .gmail__image,
+.github__image, .linkedin__image {
+    width: 50%;
+}
