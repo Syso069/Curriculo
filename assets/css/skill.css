@@ -23,6 +23,49 @@
 }
 
 .skill__image {
-    
     width: 15%;
+}
+
+.container__educacao {
+    width: 20%;
+}
+
+.titulo__educacao{
+    color: var(--azul);
+    font-size: 30px;
+    font-weight: 700;
+    padding: 1em 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .skill {
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+
+    .titulo__skill {
+        padding: 0 2.4em;
+        padding-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .container__skill {
+        width: 40%;
+    }
+
+    .titulo__skill, .titulo__educacao {
+       font-size: 20px;
+       margin-left: 0;
+    }    
+
+    .texto__educacao {
+        font-size: 15px;
+    }
+
+    .container__educacao {
+        width: 40%;
+    }
+    
 }

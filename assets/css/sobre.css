@@ -8,3 +8,18 @@
     font-weight: 700;
     padding-bottom: 1em;
 }
+
+@media screen and (max-width: 428px){
+
+    .container__sobre {
+        width: 40%
+    }
+
+    .titulo__sobre {
+        font-size: 20px;
+    }
+
+    .texto__sobre {
+        font-size: 15px;
+    }
+}

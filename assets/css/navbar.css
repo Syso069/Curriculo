@@ -12,7 +12,6 @@
 
 .container__navbar {
     margin: 2.5em 5em;
-
 }
 
 .titulo__navbar {
@@ -22,3 +21,23 @@
     padding-bottom: 1em;
 }
 
+@media screen and (max-width: 428px) {
+    .navbar{
+        margin: auto;
+    }
+
+    .container__navbar {
+        margin: 1em;
+    }
+
+    .foto__perfil { 
+        width: 20%;
+    }
+    .titulo__navbar {
+        font-size: 20px;
+    }
+
+    .texto__navbar {
+        font-size: 15px;
+    }
+}
