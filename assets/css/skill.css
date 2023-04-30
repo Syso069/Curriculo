@@ -1,20 +1,18 @@
 .skill{
    display: flex;
-   justify-content: center;
-   align-items: center;
+   justify-content: space-evenly;
+   text-align: center;
 }
 
 .container__skill {
-    width: 20%;
+    width: 40%;
 }
 
 .titulo__skill {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     color: var(--branco);
-    padding-bottom: 1em;
-    width: 15%;
-    margin-left: 3.3em;
+    padding-bottom: 0.5em;
     color: var(--azul);
 }
 
@@ -23,50 +21,38 @@
 }
 
 .skill__image {
-    width: 16%;
-}
-
-.container__educacao {
-    width: 20%;
+    width: 12%;
 }
 
 .titulo__educacao{
     color: var(--azul);
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
-    padding: 1em 0;
+    padding-bottom: 0.5em;
 }
 
-@media screen and (max-width: 1024px) {
-    .skill {
-        justify-content: space-evenly;
-        align-items: center;
-        text-align: center;
+@media screen and (min-width: 1024px) {
+    .titulo__skill,
+    .titulo__educacao {
+        font-size: 30px;
     }
-
-    .titulo__skill {
-        padding: 0 2.4em;
-        padding-bottom: 1em;
-    }
-}
-
-@media screen and (max-width: 428px) {
-    .container__skill {
-        width: 40%;
-    }
-
-    .titulo__skill, .titulo__educacao {
-       font-size: 20px;
-       margin-left: 0;
-    }    
 
     .texto__educacao {
-        font-size: 15px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .titulo__skill,
+    .titulo__educacao {
+        font-size: 35px;
     }
 
-    .container__educacao {
-        width: 40%;
-        margin: 1.6em 0.5em 0 0;
+    .texto__educacao {
+        font-size: 20px;
     }
-    
+
+    .container__skill {
+        width: 35%;
+    }
 }

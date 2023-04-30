@@ -1,43 +1,48 @@
 .navbar {
     display: flex;
-    margin: 2.5em 0;
+    margin: 1.5em 0;
     justify-content: center;
     align-items: center;
 }
 
 .foto__perfil {
-    width: 15%;
+    width: 20%;
     border-radius: 100%;
 }
 
 .container__navbar {
-    margin: 2.5em 5em;
+    text-align: center;
+    align-items: center;
+    padding-left: 1em;
 }
 
 .titulo__navbar {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 25px;
     color: var(--azul);
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
-@media screen and (max-width: 428px) {
-    .navbar{
-        margin: auto;
-    }
-
-    .container__navbar {
-        margin: 1em;
-    }
-
-    .foto__perfil { 
-        width: 20%;
-    }
+@media screen and (min-width: 1024px) {
     .titulo__navbar {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .texto__navbar {
-        font-size: 15px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .foto__perfil {
+        width: 15%;
+    }
+
+    .titulo__navbar {
+        font-size: 35px;
+    }
+
+    .texto__navbar {
+        font-size: 20px;
     }
 }

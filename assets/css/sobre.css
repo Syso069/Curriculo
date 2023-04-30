@@ -1,26 +1,30 @@
 .container__sobre {
-    width: 20%;
+    width: 40%;
 }
 
 .titulo__sobre {
     color: var(--azul);
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
-@media screen and (max-width: 428px){
-
-    .container__sobre {
-        width: 40%;
-        margin: 1.6em 0.5em 0 0;
-    }
-
+@media screen and (min-width: 1024px) {
     .titulo__sobre {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .texto__sobre {
-        font-size: 15px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .titulo__sobre {
+        font-size: 35px;
+    }
+
+    .texto__sobre {
+        font-size: 20px;
     }
 }
