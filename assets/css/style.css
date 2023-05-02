@@ -2,6 +2,8 @@
 @import url(informacoes.css);
 @import url(sobre.css);
 @import url(skill.css);
+@import url(certificados.css);
+@import url(cursos.css);
 
 :root {
     --fonte-principal: "Montserrat";

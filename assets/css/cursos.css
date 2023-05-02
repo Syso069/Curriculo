@@ -1,0 +1,44 @@
+.informacoes__cursos {
+    margin-left: 55%;
+    width: 40%;
+}
+
+.cursos {
+    display: flex;      
+}
+
+.titulo__cursos {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--branco);
+    padding-bottom: 0.5em;
+    color: var(--azul);
+    text-align: center;
+}
+
+.imagem__curso {
+    align-items: center;
+    width: 40%;
+}
+
+@media screen and (min-width: 728px) {
+    .titulo__cursos {
+        font-size: 25px;
+    } 
+}
+
+@media screen and (min-width: 1024px) {
+    .titulo__cursos {
+        font-size: 30px;
+    } 
+}
+
+@media screen and (min-width: 1728px) {
+    .titulo__cursos {
+        font-size: 35px;
+    } 
+
+    .imagem__curso {
+        width: 60%;
+    }
+}

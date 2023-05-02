@@ -1,0 +1,65 @@
+
+.container__certificado {
+    margin: 2.5em;
+}
+
+.titulo__curso {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--branco);
+    padding-bottom: 0.5em;
+    color: var(--azul);
+    text-align: center;
+}
+
+.certificados {
+    display: block;
+    justify-content: center;
+    text-align: center; 
+}
+
+.image, 
+.image__curso-js,
+.image__curso{
+    margin-bottom: 1em;
+}
+
+.image__curso-js,
+.image__curso,
+.image {
+    width: 80%;
+}
+
+@media screen and (min-width: 728px) {
+    .certificados {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .image, 
+    .image__curso,
+    .image__curso-js {
+        margin-bottom: none;
+    }
+
+    .titulo__curso {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .image__curso {
+        width: 40%;
+    }
+
+    .titulo__curso {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .titulo__curso {
+        font-size: 35px;
+    }
+}
