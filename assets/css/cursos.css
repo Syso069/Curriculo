@@ -1,4 +1,4 @@
-.informacoes__cursos {
+.container__cursos {
     margin-left: 55%;
     width: 40%;
 }
@@ -18,7 +18,7 @@
 
 .imagem__curso {
     align-items: center;
-    width: 40%;
+    width: 80%;
 }
 
 @media screen and (min-width: 728px) {

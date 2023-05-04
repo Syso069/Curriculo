@@ -27,7 +27,7 @@
 .image__curso-js,
 .image__curso,
 .image {
-    width: 80%;
+    width: 100%;
 }
 
 @media screen and (min-width: 728px) {
@@ -41,6 +41,7 @@
     .image__curso,
     .image__curso-js {
         margin-bottom: none;
+        width: 90%;
     }
 
     .titulo__curso {
